@@ -1456,7 +1456,7 @@
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
         <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <boolean name="carrier_name_override_bool" value="true" />
-        <string name="carrier_name_string">中国电信动</string>
+        <string name="carrier_name_string">中国电信</string>
         <map name="apn_default_values_strings_array">
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
