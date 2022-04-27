@@ -32,6 +32,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
 
+# Include IFAA manager, Support Alipay and WeChat fingerprint payment
+$(call inherit-product, vendor/xiaomi/sdm845-common-extra/ifaa.mk)
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
@@ -280,9 +283,6 @@ PRODUCT_PACKAGES += \
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
-
-# IFAA manager
-include vendor/xiaomi/sdm845-common-extra/ifaa.mk
 
 # Init scripts
 PRODUCT_COPY_FILES += \
