@@ -1,8 +1,8 @@
 [
  {
-   "repository" : "vendor_xiaomi_haydn",
+   "repository" : "meiweijia/vendor_xiaomi_haydn",
    "target_path": "vendor/xiaomi/haydn",
-   "remote"     : "pixel-devices-blobs",
+   "remote"     : "github",
    "branch"     : "twelve"
  },
  {
@@ -12,8 +12,9 @@
    "remote"     : "pixel-devices-blobs"
  },
  {
-   "repository" : "kernel_xiaomi_haydn",
+   "repository" : "meiweijia/kernel_xiaomi_haydn",
    "target_path": "kernel/xiaomi/haydn",
+   "remote"     : "github",
    "branch"     : "twelve"
  },
  {
