@@ -29,10 +29,10 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-pe
 
 PRODUCT_PACKAGES += \
-    FrameworksResVenus \
-    SettingsProviderOverlayVenus \
-    SettingsResVenus \
-    SystemUIResVenus
+    FrameworksResHaydn \
+    SettingsProviderOverlayHaydn \
+    SettingsResHaydn \
+    SystemUIResHaydn
 
 # PowerShare
 PRODUCT_PACKAGES += \
@@ -58,4 +58,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/st_fts_k2_htp.ftb:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/st_fts_k2_htp.ftb
 
 # Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/venus/venus-vendor.mk)
+$(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)

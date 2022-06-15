@@ -1,28 +1,27 @@
-Copyright (C) 2021 The LineageOS Project
+Copyright &copy; 2021 PixelExperience
 
-Copyright (C) 2022 The PixelExperience Project
-
-Device configuration for Xiaomi Mi 11
+Device configuration for Xiaomi Mi 11i / Xiaomi Mi11X Pro / Redmi K40 Pro / Pro+
 =========================================
 
-The Xiaomi Mi 11 (codenamed _"venus"_) is a flagship smartphone from Xiaomi.
+The Xiaomi Mi 11i / Xiaomi Mi11X Pro / Redmi K40 Pro / Pro+ (codenamed _"haydn/haydnin/haydnpro"_) is a high-end smartphone from Xiaomi's sub-brand Redmi.
 
-It was released in December 2020.
+It was announced in February 2021. Release date was in March 2021.
 
 ## Device specifications
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core (1x2.84 GHz Kryo 680 & 3x2.42 GHz Kryo 680 & 4x1.80 GHz Kryo 680)
-Chipset | Qualcomm SM8350 Snapdragon 888 5G (5 nm)
+CPU     | Octa-core (1x2.84 GHz Kryo 680 & 3x2.4GHz Kryo 680 & 4x1.8GHz Kryo 680)
+Chipset | Qualcomm SM8350 Snapdragon 888
 GPU     | Adreno 660
-Memory  | 8/12 GB, LPDDR5
-Storage | 128/256 GB, UFS 3.1
-Shipped Android Version | 11
-Battery | Li-Po 4600 mAh, non-removable
-Display | 1440 x 3200 pixels, 6.81 inches (~515 ppi density)
-Camera  | 108 MP main, 13 MP ultrawide, 5 MP macro, 20 MP front
+Memory  | 6/8/12 GB RAM
+Shipped Android Version | 11.0
+Storage | 128/256 GB (UFS 3.1)
+Battery | Non-removable Li-Po 4520 mAh
+Display | 2400 x 1080 pixels, 6.67 inches (~395 ppi pixel density)
+Camera  | 108MP/64MP(Primary), 8MP(Ultrawide), 5MP(Macro), single LED flash, 20MP(Selfie)
 
 ## Device picture
 
-![Xiaomi Mi 11](https://i01.appmifile.com/webfile/globalimg/products/pc/mi11/specs-01.png "Xiaomi Mi 11")
+
+![Redmi K40 Pro Series](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1614153658.41363669.jpg "Redmi K40 Pro Series")

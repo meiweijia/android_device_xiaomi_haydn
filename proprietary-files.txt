@@ -1,4 +1,4 @@
-# Device proprietary files - from venus MIUI China Stable V13.0.6.0.SKBCNXM
+# Device proprietary files - from haydn MIUI China Stable V13.0.6.0.SKBCNXM
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -93,22 +93,22 @@ vendor/firmware/spk2_playback_delta.txt
 vendor/firmware/spk2_voice_delta.txt
 
 # Camera
-vendor/lib64/camera/com.qti.eeprom.venus_semco_s5khmx_m24c128x_wide_eeprom.so
-vendor/lib64/camera/com.qti.eeprom.venus_sunny_ov13b10_gt24p64_ultra_eeprom.so
-vendor/lib64/camera/com.qti.eeprom.venus_sunny_s5k3t2_gt24p64_front_eeprom.so
-vendor/lib64/camera/com.qti.eeprom.venus_sunny_s5k5e9yx04_gt24p64_macro_eeprom.so
-vendor/lib64/camera/com.qti.sensor.venus_semco_s5khmx_wide.so
-vendor/lib64/camera/com.qti.sensor.venus_sunny_ov13b10_ultra.so
-vendor/lib64/camera/com.qti.sensor.venus_sunny_s5k3t2_front.so
-vendor/lib64/camera/com.qti.sensor.venus_sunny_s5k5e9yx04_macro.so
-vendor/lib64/camera/com.qti.sensormodule.venus_semco_s5khmx_wide.bin
-vendor/lib64/camera/com.qti.sensormodule.venus_sunny_ov13b10_ultra.bin
-vendor/lib64/camera/com.qti.sensormodule.venus_sunny_s5k3t2_front.bin
-vendor/lib64/camera/com.qti.sensormodule.venus_sunny_s5k5e9yx04_macro.bin
-vendor/lib64/camera/com.qti.tuned.venus_semco_s5khmx_wide.bin
-vendor/lib64/camera/com.qti.tuned.venus_sunny_ov13b10_ultra.bin
-vendor/lib64/camera/com.qti.tuned.venus_sunny_s5k3t2_front.bin
-vendor/lib64/camera/com.qti.tuned.venus_sunny_s5k5e9yx04_macro.bin
+vendor/lib64/camera/com.qti.eeprom.haydn_semco_s5khmx_m24c128x_wide_eeprom.so
+vendor/lib64/camera/com.qti.eeprom.haydn_sunny_ov13b10_gt24p64_ultra_eeprom.so
+vendor/lib64/camera/com.qti.eeprom.haydn_sunny_s5k3t2_gt24p64_front_eeprom.so
+vendor/lib64/camera/com.qti.eeprom.haydn_sunny_s5k5e9yx04_gt24p64_macro_eeprom.so
+vendor/lib64/camera/com.qti.sensor.haydn_semco_s5khmx_wide.so
+vendor/lib64/camera/com.qti.sensor.haydn_sunny_ov13b10_ultra.so
+vendor/lib64/camera/com.qti.sensor.haydn_sunny_s5k3t2_front.so
+vendor/lib64/camera/com.qti.sensor.haydn_sunny_s5k5e9yx04_macro.so
+vendor/lib64/camera/com.qti.sensormodule.haydn_semco_s5khmx_wide.bin
+vendor/lib64/camera/com.qti.sensormodule.haydn_sunny_ov13b10_ultra.bin
+vendor/lib64/camera/com.qti.sensormodule.haydn_sunny_s5k3t2_front.bin
+vendor/lib64/camera/com.qti.sensormodule.haydn_sunny_s5k5e9yx04_macro.bin
+vendor/lib64/camera/com.qti.tuned.haydn_semco_s5khmx_wide.bin
+vendor/lib64/camera/com.qti.tuned.haydn_sunny_ov13b10_ultra.bin
+vendor/lib64/camera/com.qti.tuned.haydn_sunny_s5k3t2_front.bin
+vendor/lib64/camera/com.qti.tuned.haydn_sunny_s5k5e9yx04_macro.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
@@ -438,8 +438,8 @@ vendor/lib64/libsupermoon.so
 
 # Camera-firmware
 vendor/firmware/CAMERA_ICP.elf
-vendor/firmware/venus_bu63169_ois.coeff
-vendor/firmware/venus_bu63169_ois.prog
+vendor/firmware/haydn_bu63169_ois.coeff
+vendor/firmware/haydn_bu63169_ois.prog
 
 # Camera-sensors
 vendor/lib/libjpege.so
@@ -483,7 +483,7 @@ vendor/bin/hw/vendor.xiaomi.hardware.dtool@1.0-service
 vendor/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc
 vendor/lib64/vendor.xiaomi.hardware.dtool@1.0.so
 
-# HotwordEnrollment - from venus_global V13.0.1.0.SKBMIXM
+# HotwordEnrollment - from haydn_global V13.0.1.0.SKBMIXM
 product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|3a0089f1a2d5b5acca1cec8330db5c5f3d738f2a
 product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|5b6439d4ee66206fd4b1159294b363920fe39a82
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb

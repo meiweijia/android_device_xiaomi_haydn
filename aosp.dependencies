@@ -5,19 +5,19 @@
     "branch": "twelve"
   },
   {
-    "repository":  "kernel_xiaomi_venus",
-    "target_path": "kernel/xiaomi/venus",
+    "repository":  "kernel_xiaomi_haydn",
+    "target_path": "kernel/xiaomi/haydn",
     "branch": "twelve"
   },
   {
-    "repository": "vendor_xiaomi_venus",
-    "target_path": "vendor/xiaomi/venus",
+    "repository": "vendor_xiaomi_haydn",
+    "target_path": "vendor/xiaomi/haydn",
     "branch": "twelve",
     "remote": "pixel-devices-blobs"
   },
   {
-    "repository": "vendor_xiaomi_venus-firmware",
-    "target_path": "vendor/xiaomi/venus-firmware",
+    "repository": "vendor_xiaomi_haydn-firmware",
+    "target_path": "vendor/xiaomi/haydn-firmware",
     "branch": "twelve",
     "remote": "pixel-devices-blobs"
   }

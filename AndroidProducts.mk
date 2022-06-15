@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_venus.mk
+    $(LOCAL_DIR)/aosp_haydn.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_venus-user \
-    aosp_venus-userdebug \
-    aosp_venus-eng
+    aosp_haydn-user \
+    aosp_haydn-userdebug \
+    aosp_haydn-eng

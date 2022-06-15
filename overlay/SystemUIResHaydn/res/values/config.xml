@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+<resources>
+
+    <!-- Default rounded corner curve (a Bezier). Must match (the curved path in) rounded.xml.
+         Note that while rounded.xml includes the entire path (including the horizontal and vertical
+         corner edges), this pulls out just the curve.
+     -->
+    <string name="config_rounded_mask" translatable="false">
+        M 0.00 0.00 L 130.00 0.00 C 108.27 1.44 86.11 2.31 65.30 9.24 C 47.27 15.17 32.16 27.89 20.89 42.91 C 12.46 54.07 7.69 67.54 5.06 81.17 C 1.98 97.25 1.12 113.66 0 130.00 L 0.00 0 Z
+    </string>
+
+    <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
+    <bool name="config_roundedCornerMultipleRadius">true</bool>
+
+    <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
+    <dimen name="config_rounded_mask_size">150px</dimen>
+    <dimen name="config_rounded_mask_size_top">130px</dimen>
+    <dimen name="config_rounded_mask_size_bottom">150px</dimen>
+
+    <!-- Location on the screen of the center of the physical power button. -->
+    <dimen name="physical_power_button_center_screen_location_y">1070px</dimen>
+
+    <!-- Location on the screen of the center of the fingerprint sensor. -->
+    <dimen name="physical_fingerprint_sensor_center_screen_location_y">1070px</dimen>
+</resources>
