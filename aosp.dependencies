@@ -14,11 +14,5 @@
     "target_path": "vendor/xiaomi/haydn",
     "branch": "twelve",
     "remote": "pixel-devices-blobs"
-  },
-  {
-    "repository": "vendor_xiaomi_haydn-firmware",
-    "target_path": "vendor/xiaomi/haydn-firmware",
-    "branch": "twelve",
-    "remote": "pixel-devices-blobs"
   }
 ]
