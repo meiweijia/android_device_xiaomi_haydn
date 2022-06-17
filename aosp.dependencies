@@ -1,8 +1,9 @@
 [
   {
-    "repository": "device_xiaomi_sm8350-common",
+    "repository": "meiweijia/device_xiaomi_sm8350-common",
     "target_path": "device/xiaomi/sm8350-common",
-    "branch": "twelve"
+    "branch": "twelve",
+    "remote": "github"
   },
   {
     "repository":  "kernel_xiaomi_haydn",
@@ -10,9 +11,9 @@
     "branch": "twelve"
   },
   {
-    "repository": "vendor_xiaomi_haydn",
+    "repository": "meiweijia/vendor_xiaomi_haydn",
     "target_path": "vendor/xiaomi/haydn",
     "branch": "twelve",
-    "remote": "pixel-devices-blobs"
+    "remote": "github"
   }
 ]
