@@ -123,6 +123,7 @@ BOARD_KERNEL_CMDLINE += swiotlb=0
 BOARD_KERNEL_CMDLINE += pcie_ports=compat
 BOARD_KERNEL_CMDLINE += iptable_raw.raw_before_defrag=1
 BOARD_KERNEL_CMDLINE += ip6table_raw.raw_before_defrag=1
+
 # TARGET_KERNEL_CLANG_VERSION := prelude
 # KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-prelude/bin
 # KERNEL_SUPPORTS_LLVM_TOOLS := true
@@ -131,7 +132,6 @@ BOARD_KERNEL_CMDLINE += ip6table_raw.raw_before_defrag=1
 BOOT_KERNEL_MODULES := \
     focaltech_touch.ko \
     hwid.ko \
-    msm_drm.ko \
     xiaomi_touch.ko
 
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
