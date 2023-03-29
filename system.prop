@@ -28,3 +28,6 @@ ro.netflix.bsp_rev=Q875-32408-1
 
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
+
+# Sensors
+persist.vendor.sensors.enable.mag_filter=true

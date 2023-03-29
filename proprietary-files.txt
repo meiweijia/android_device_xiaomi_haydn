@@ -1739,7 +1739,6 @@ vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto
 vendor/etc/elliptic_sensor.xml
 vendor/etc/sensor_diag.cfg
 vendor/etc/sensors/calibratedCheck.json
-vendor/etc/sensors/hals.conf
 vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sns_reg_config
 
